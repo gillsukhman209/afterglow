@@ -1,0 +1,10 @@
+.DS_Store
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.mobileprovision
+*.p12
+*.p8
+*.pem
+*.ipk
+ios/DeviceConfig/TV.plist

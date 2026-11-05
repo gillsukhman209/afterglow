@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Afterglow</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="scene"></div><div class="shade"></div>
+<main id="home">
+<header>
+  <div class="right">
+    <button id="controls"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m10 2-.5 2.2-2 .9-2-1.1-2.2 3.8 1.8 1.4-.2 2.5-1.7 1.5 2.1 3.8 2.2-.6 1.9 1.1.6 2.5h4l.6-2.5 1.9-1.1 2.2.6 2.1-3.8-1.7-1.5-.2-2.5 1.8-1.4L18.5 4l-2 1.1-2-.9L14 2Z"/><circle cx="12" cy="11.3" r="3.3"/></svg>Settings</button>
+    <time id="clock"></time>
+  </div>
+</header>
+<section class="shelf" aria-label="Favorite apps">
+<div id="apps">
+<button class="tile yt" data-app="youtube.leanback.v4" aria-label="YouTube"><img src="assets/youtube.svg" alt=""></button>
+<button class="tile nf" data-app="netflix" aria-label="Netflix"><img src="assets/netflix.svg" alt=""></button>
+<button class="tile pv" data-app="amazon" aria-label="Prime Video"><img src="assets/primevideo.svg" alt=""></button>
+<button class="tile sl" data-app="com.movenetworks.app.sling-tv-sling-production" aria-label="Sling"><img src="assets/sling.svg" alt=""></button>
+</div></section>
+</main>
+<div id="overlay" hidden></div>
+<aside id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" hidden>
+<h2 id="panelTitle">Settings</h2>
+<button class="setting" id="lgSettings">LG TV Settings <b aria-hidden="true">↗</b></button>
+<h3>TV sound</h3><div class="group"><button data-audio="volumeDown" aria-label="Volume down">−</button><button data-audio="volumeUp" aria-label="Volume up">+</button><button data-audio="mute">Mute</button><button data-audio="unmute">Unmute</button></div>
+<h3>Appearance</h3>
+<button class="setting" id="wallpaper">Wallpaper <b></b></button>
+<button class="setting" id="shade">Wallpaper light <b></b></button>
+<button class="setting" id="clockSetting">Clock <b></b></button>
+<button class="setting" id="ambient">Ambient view <b>↗</b></button>
+<button id="done">Done</button>
+</aside>
+<div id="idle" hidden><span id="idleTime"></span></div>
+<div id="notice" role="status" hidden></div>
+<script src="assets/webOSTV.js"></script><script src="app.js"></script>
+</body></html>

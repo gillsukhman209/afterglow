@@ -1,0 +1,41 @@
+* { box-sizing:border-box }
+[hidden] { display:none !important }
+:root { font-size:1vw; color:#f7f6ee; background:#080c0e; font-family:"Helvetica Neue",Arial,sans-serif }
+body { margin:0; overflow:hidden }
+#scene,.shade,#home,#overlay,#idle { position:fixed; inset:0; top:0; right:0; bottom:0; left:0 }
+#scene { background:center / cover no-repeat url('assets/tide.jpg') }
+.shade { background:linear-gradient(90deg,rgba(0,5,12,.64),rgba(0,5,12,.38) 25%,transparent 56%),linear-gradient(180deg,rgba(0,5,12,.36),transparent 22%) }
+header { display:flex; align-items:center; justify-content:flex-end; padding:4.2vh 4.3vw }
+.right,#controls { display:flex; align-items:center }
+.right { color:#ffebca; text-shadow:0 1px .38rem #14100d }
+button { cursor:pointer; color:inherit; font:inherit; border:1px solid rgba(255,255,255,.2); outline:none }
+button:focus { box-shadow:0 0 0 .16rem #ffebca,0 0 0 .32rem #393d40 }
+#controls,#done { padding:.72rem 1.18rem; border-radius:3rem; background:rgba(4,12,20,.86); font-size:1.42rem; font-weight:500; border-color:rgba(248,217,173,.68) }
+#controls svg { width:1.65rem; margin-right:.58rem }
+time { border-left:.09rem solid #ead7b4; padding-left:1.65rem; margin-left:1.65rem; font-size:2.05rem; font-variant-numeric:tabular-nums }
+.shelf { position:absolute; left:3.15vw; top:20.3vh }
+#apps { display:flex; flex-direction:column; width:26.9rem }
+.tile { position:relative; display:flex; align-items:center; justify-content:flex-start; width:100%; height:13.5vh; padding:0 2.45rem; margin-bottom:1.7vh; border:1px solid transparent; border-radius:1.55rem; background:transparent; transition:transform .16s ease; transform-origin:12% 50% }
+.tile img { display:block; max-width:100%; max-height:78%; height:auto; object-fit:contain; object-position:left center; pointer-events:none }
+.tile:focus { transform:scale(1.023); border-color:rgba(255,231,194,.86); background:linear-gradient(112deg,rgba(255,224,180,.21),rgba(36,55,75,.58) 46%,rgba(91,116,135,.36)); box-shadow:inset 0 0 .8rem rgba(255,242,220,.14),0 .3rem 1.3rem rgba(0,0,0,.4) }
+.tile:focus::before { content:""; position:absolute; left:.75rem; top:20%; height:60%; width:.21rem; border-radius:.2rem; background:#ffedcf; box-shadow:0 0 .6rem #efbb83 }
+.yt img { width:21.1rem }
+.nf img { width:15.2rem }
+.pv img { width:17.8rem }
+.sl img { width:11rem }
+#overlay { background:rgba(0,5,8,.55) }
+aside { position:fixed; top:3vh; right:2vw; bottom:3vh; width:32rem; padding:2.6rem; border-radius:1.5rem; background:#151e20; overflow:auto }
+h2 { font:400 2.8rem Georgia,serif; letter-spacing:-.09rem; margin:0 0 1.5rem }
+h3 { margin:1.4rem 0 .75rem; font-size:1.15rem; color:#c1c9c6; font-weight:500 }
+.group { display:flex }
+.group button,.setting { background:#263235; border-radius:.65rem; padding:1rem; font-size:1.32rem }
+.group button { flex:1; margin-right:.35rem }
+.group button:last-child { margin:0 }
+.setting { width:100%; display:flex; align-items:center; justify-content:space-between; margin-bottom:.56rem }
+.setting b { font-size:1.16rem; color:#d6cba9; font-weight:500 }
+p { font-size:1.14rem; line-height:1.5; color:#c1c9c6 }
+#done { background:#e2dfd3; color:#152022 }
+#notice { position:fixed; bottom:1.4vh; left:50%; transform:translateX(-50%); border-radius:.8rem; padding:.7rem 1.4rem; background:#111a1c; color:#fff; font-size:1.28rem; max-width:85vw; text-align:center }
+#idle { background:#050708 }
+#idleTime { position:absolute; color:#767772; font:400 3rem Georgia,serif }
+@media(prefers-reduced-motion:reduce) { * { transition:none !important } }

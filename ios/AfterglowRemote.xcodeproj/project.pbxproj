@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062CF9B8AA582E834D3B7AFD /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F1D57F021CF2555A9C54B /* TV.swift */; };
+		1BF7F16E81165E025995513A /* Touchpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F36703C2508293EDDFA543 /* Touchpad.swift */; };
+		38091935C253CB1C45DE9BD8 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5692A73502F25C7BE5BD05D4 /* Search.swift */; };
+		4B267197034052324FC40768 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF319FFB864513D52E6B64 /* Assistant.swift */; };
+		8DE89BAB547FAA4F3E3EF8BC /* DeviceConfig in Resources */ = {isa = PBXBuildFile; fileRef = 623FF2A38EED94B7F1075911 /* DeviceConfig */; };
+		C77BB60FC63F436CDB72D8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2979639803D085D2CC8865C2 /* Assets.xcassets */; };
+		D2D10BC8C7D49E6AE20576A7 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702786084FE6FF65FEC5BEF0 /* Remote.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08C36486516358E05F6A6582 /* AfterglowRemote.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AfterglowRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2979639803D085D2CC8865C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5692A73502F25C7BE5BD05D4 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5B5F1D57F021CF2555A9C54B /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
+		623FF2A38EED94B7F1075911 /* DeviceConfig */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DeviceConfig; sourceTree = SOURCE_ROOT; };
+		702786084FE6FF65FEC5BEF0 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		B2F36703C2508293EDDFA543 /* Touchpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touchpad.swift; sourceTree = "<group>"; };
+		CBBF319FFB864513D52E6B64 /* Assistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assistant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		93835B6562E5046E44657457 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2979639803D085D2CC8865C2 /* Assets.xcassets */,
+				CBBF319FFB864513D52E6B64 /* Assistant.swift */,
+				702786084FE6FF65FEC5BEF0 /* Remote.swift */,
+				5692A73502F25C7BE5BD05D4 /* Search.swift */,
+				B2F36703C2508293EDDFA543 /* Touchpad.swift */,
+				5B5F1D57F021CF2555A9C54B /* TV.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A180CEED77BA72AC37DC5B51 = {
+			isa = PBXGroup;
+			children = (
+				623FF2A38EED94B7F1075911 /* DeviceConfig */,
+				93835B6562E5046E44657457 /* App */,
+				D7CCF666348250A000814723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7CCF666348250A000814723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C36486516358E05F6A6582 /* AfterglowRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB434590B0443ED98B8C8500 /* AfterglowRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52D47EE9D7C19DA95A74355 /* Build configuration list for PBXNativeTarget "AfterglowRemote" */;
+			buildPhases = (
+				4B460ABF3F5C3C17D246C7D6 /* Sources */,
+				355FB9A201DDD99D1D79616E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AfterglowRemote;
+			packageProductDependencies = (
+			);
+			productName = AfterglowRemote;
+			productReference = 08C36486516358E05F6A6582 /* AfterglowRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A3CE17BB92066F041A25DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EB434590B0443ED98B8C8500 = {
+						DevelopmentTeam = EPB5476N6P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65837979F2F117F2930117E8 /* Build configuration list for PBXProject "AfterglowRemote" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A180CEED77BA72AC37DC5B51;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D7CCF666348250A000814723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB434590B0443ED98B8C8500 /* AfterglowRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		355FB9A201DDD99D1D79616E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77BB60FC63F436CDB72D8F8 /* Assets.xcassets in Resources */,
+				8DE89BAB547FAA4F3E3EF8BC /* DeviceConfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B460ABF3F5C3C17D246C7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B267197034052324FC40768 /* Assistant.swift in Sources */,
+				D2D10BC8C7D49E6AE20576A7 /* Remote.swift in Sources */,
+				38091935C253CB1C45DE9BD8 /* Search.swift in Sources */,
+				062CF9B8AA582E834D3B7AFD /* TV.swift in Sources */,
+				1BF7F16E81165E025995513A /* Touchpad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20C0DED8559496C3F7CEB668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		231ADAE46C685C044FA8C857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = EPB5476N6P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Afterglow;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Pair with your LG G1 and send remote controls over Wi-Fi.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Speak an English command for your living room TV.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcribe your English TV commands.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gill.afterglow.remote;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38ADC170A28C347839D5A8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE2F0180827BE309FF110A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = EPB5476N6P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Afterglow;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Pair with your LG G1 and send remote controls over Wi-Fi.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Speak an English command for your living room TV.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Transcribe your English TV commands.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gill.afterglow.remote;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65837979F2F117F2930117E8 /* Build configuration list for PBXProject "AfterglowRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C0DED8559496C3F7CEB668 /* Debug */,
+				38ADC170A28C347839D5A8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E52D47EE9D7C19DA95A74355 /* Build configuration list for PBXNativeTarget "AfterglowRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231ADAE46C685C044FA8C857 /* Debug */,
+				BE2F0180827BE309FF110A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A3CE17BB92066F041A25DB /* Project object */;
+}

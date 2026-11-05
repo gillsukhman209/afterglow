@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>certificateSHA256</key>
+	<string></string>
+	<key>host</key>
+	<string>LGwebOSTV.local</string>
+	<key>wakeAddress</key>
+	<string>192.0.2.1</string>
+	<key>wakeMAC</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+#!/bin/sh
+# Removing this hook restores ordinary startup on the following full reboot.
+dir=/var/lib/webosbrew/afterglow
+test -r "$dir/home.js" || exit 0
+test -f /media/developer/apps/usr/palm/applications/com.afterglow.lounge/appinfo.json || exit 0
+(
+  cd "$dir" || exit
+  exec 9>/tmp/afterglow-home.lock
+  flock -n 9 || exit
+  exec /usr/bin/node "$dir/home.js"
+) </dev/null >/dev/null 2>&1 &
+exit 0
